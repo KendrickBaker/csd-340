@@ -1,0 +1,63 @@
+#Hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#Experiences {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    background-color:steelblue;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    background-color:slateblue;
+}
+
+figcaption{
+    color: white;
+}
+
+figure{
+    height: 250px;
+    width:200px;
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.75em;
+    background-color:slateblue;
+}
+
+body{
+    background-color:slategrey;
+    opacity: 20;
+}
+
+.personal-hobbies{
+    border: solid;
+    border-radius: 5px;
+    border-radius: rgb(185,63,8);
+    padding: 0px;
+}
+
+.work-experience{
+    border: solid;
+    border-radius: 5px;
+    border-radius: rgb(185,63,8);
+    padding: 0px;
+}
